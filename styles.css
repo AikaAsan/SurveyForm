@@ -30,6 +30,24 @@ li a:hover {
   /* cannot change the color of Survey Form #float to green */
   color: green;
 }
+
 body {
-  background-image: url("./images/background.jpg");
+  background-image: url("./images/BackgroundImage.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#description,
+#title {
+  text-align: center;
+}
+
+/* form */
+
+form {
+  background: #e2eeee;
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+  margin: 50px 150px;
 }
